@@ -1,0 +1,21 @@
+# Althea - pip requirements
+
+# Created 2022-2024 by James Bishop (james@bishopdynamics.com)
+# License: GPLv3, see License.txt
+
+imgui_bundle == 1.3.0
+PyInstaller
+pandas  # read many formats into dataframe
+pandas-stubs  # type hints for pandas
+openpyxl    # read excel formats
+xlwt    # write excel formats
+xlrd    # read old excel format
+odfpy  # read openoffice formats
+statsmodels  # statistical modeling
+freetype-py  # for font information
+pandasql  # perform sql queries against pandas dataframe
+sqlparse  # for parsing sql queries into neat strings to print
+RestrictedPython  # for python script node
+numpy
+numba
+dill # better pickling
